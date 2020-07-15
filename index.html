@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Which Game Next</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Work+Sans:300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!----Top Header--------------------->
+    <div id="top-header"
+    <h1>Which Game Next? </h1> 
+    <h2 id ="txt-inside-img"> </h2>
+        <div>
+            <img id='header-image' src="/Users/stevenkumarsingh/Development/projects/wgn-app/games.jpg" alt="games">
+        </div>
+    </div>
+
+
+
+<!----Game Grid------------------------>
+<div id="filter">
+    <div id="buttons">
+        <button id="sort">Sort Games Alphabetically</button>
+    </div>
+
+
+</div>
+
+<div class="container">
+    <section id="games-content"></section>
+</div>
+
+
+<!-- Add a new game to WGN------------->
+<div id="new-game-container">
+    <form id="new-game-form">
+        <h2>Beat a game thats not listed? Add it!</h2>
+        <label for="new-game-title">Game Title:</label>
+        <input type="text" id="new-game-title" placeholder="Enter a game title">
+        <label for="new-game-developer">Game Developer:</label>
+        <input type="text" id="new-game-developer" placeholder="Enter Developer name">
+        <label for="new-game-cover">Game Cover URL:</label>
+        <input type="text" id="new-game-cover" placeholder="Add Game Cover URL">
+        <button type="submit">Add Game</button>
+    </form>
+</div>
+
+
+<!---Add a new review should be hidden--->
+<div id="new-review-container">
+    <form id="new-review-form">
+        <div class="body-input">
+            <label for="new-review-body">Add a comment:</label>
+            <input type="text" id="new-review-body" placeholder="Add your playtime and a comment here  --your name">
+        </div>
+
+        <div id="buttons">
+            <button onclick="closeForm()">Close</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<!-----Scripts----->
+    <script src="src/components/game.js"></script>
+    <script src="src/components/games.js"></script>
+    <script src="src/components/app.js"></script>
+    <script src="src/adapters/GamesAdapter.js"></script>
+    <script src="src/index.js"></script>
+    
+</body>
+</html>

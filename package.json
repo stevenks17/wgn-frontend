@@ -1,0 +1,8 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:stevenks17/wgn-frontend.git",
+  "author": "<github username> <<github email address>>",
+  "license": "MIT"
+}
