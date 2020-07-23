@@ -11,7 +11,7 @@ class Games {
         this.newGameDeveloper = document.getElementById('new-game-developer')
         this.newGameCover = document.getElementById('new-game-cover')
         this.newGameForm.addEventListener('submit', this.createGame.bind(this))
-        document.getElementById("sort").addEventListener ("click", this.sortAlpha.bind(this));
+        // document.getElementById("sort").addEventListener ("click", this.sortAlpha.bind(this));
 
     }
 
