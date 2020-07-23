@@ -45,12 +45,6 @@ section{
 }
 
 button:hover{
-  opacity: .5;
-  transition: .9s;
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
