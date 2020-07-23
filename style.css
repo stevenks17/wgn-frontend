@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Work Sans', sans-serif;}
 /* TOP HEADER */
 
 #header-image{
-    width: 60%;
+    width: 40%;
     height: 20%;
     overflow: hidden;
 }

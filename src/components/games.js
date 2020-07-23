@@ -46,27 +46,27 @@ class Games {
         this.games.map(game => game.renderGameBlock())
     }
 
-    sortAlpha() {
-        console.log('test')
+    // sortAlpha() {
+    //     console.log('test')
         
-        this.games.sort(function(gameA, gameB){
-        if (gameA.title < gameB.title) {
-            return -1;
+    //     this.games.sort(function(gameA, gameB){
+    //     if (gameA.title < gameB.title) {
+    //         return -1;
    
-        }
-        if (gameA.title > gameB.title){
-            return 1;
-        }
+    //     }
+    //     if (gameA.title > gameB.title){
+    //         return 1;
+    //     }
    
-        return 0;
-       });
-       console.log(this.games)
-       const gamesContainer = document.getElementById('games-content')
-       gamesContainer.innerHTML = ""
-       this.renderGames()
+    //     return 0;
+    //    });
+    //    console.log(this.games)
+    //    const gamesContainer = document.getElementById('games-content')
+    //    gamesContainer.innerHTML = ""
+    //    this.renderGames()
        
 
-    }
+    // }
 
 
 }
